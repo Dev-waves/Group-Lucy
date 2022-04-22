@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  /* box-sizing: border-box; */
+box-sizing: border-box; 
 }
 
 body {
@@ -177,8 +177,53 @@ body {
   font-weight: bold;
 }
 
-@media (min-width: 1250px) {
+@media (max-width: 1250px) {
   element.style {
     width: 1000px;
 }
+#bigGreen-Triangle {
+  width: 5em;
+  height: 10em;
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  background-color: #058038;
+}
+#bigBlue-Triangle {
+  width: 10em;
+  height: 5em;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  background-color: #1b2edb;
+}
+
+#pink-Triangle {
+  width: 2.5em;
+  height: 5em;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  background-color: #f36bd6;
+}
+#orange-Triangle {
+  width: 5em;
+  height: 5em;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  background-color: #eb9524;
+}
+#purple-Square {
+  width: 5em;
+  height: 5em;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-color: #a42add;
+}
+
+#red-Parallelogram {
+  width: 8.75em;
+  height: 2.5em;
+  clip-path: polygon(28.5% 0%, 85.6% 0%, 57.5% 100%, 0% 100%);
+  background-color: #e42929;
+}
+#yellow-Triangle {
+  width: 5em;
+  height: 2.5em;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  background-color: #f5e61c;
+}
+
 }
