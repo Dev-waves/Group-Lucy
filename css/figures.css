@@ -1,11 +1,13 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
   background-color: rgba(245, 200, 207, 0.87);
+   margin: 0%;
+  display: inline-block;
 }
 
 
@@ -13,8 +15,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
-    width: 75vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 .figure {
@@ -77,25 +79,26 @@ body {
 }
 
 .controls {
-  position: fixed;
+  /* position: fixed; */
   z-index: 10;
-  top: 50%;
+  /* top: 50%; */
   right: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* -webkit-transform: translateY(-50%); */
+  /* transform: translateY(-50%); */
+  flex-wrap: wrap;
 }
 
 .controls .control {
@@ -114,7 +117,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: .0rem 0;
+  margin: .7rem 0;
   -webkit-box-shadow: var(--box-shadow-1);
           box-shadow: var(--box-shadow-1);
 }
@@ -149,7 +152,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: .0rem 0;
+  margin: .7rem 0;
   -webkit-box-shadow: var(--box-shadow-1);
           box-shadow: var(--box-shadow-1);
 }
@@ -172,4 +175,10 @@ body {
   font-family: 'Bitter', serif;
   color: var(--color-grey-2);
   font-weight: bold;
+}
+
+@media (min-width: 1250px) {
+  element.style {
+    width: 1000px;
+}
 }
