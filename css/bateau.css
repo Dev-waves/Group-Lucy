@@ -1,33 +1,70 @@
-.bigGreen-Triangle {
-  transform: translateX(15em) translateY(-1em) rotate(315deg);
+.bigBlue-Triangle {
+  transform: translateX(-7em) translateY(-11em) rotate(135deg);
   transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
-.bigBlue-Triangle {
-  transform:translateX(8EM) translateY(-1em) rotate(135deg);
-  transition: translateX(5em) translateY(1em) rotate(-45deg);
-}
-
-.pink-Triangle {
-  transform:translateX(5em) translateY(4em) rotate(315deg) ;
+.bigGreen-Triangle {
+  transform: translateX(0em) translateY(-11em) rotate(315deg);
   transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .purple-Square {
-  transform: translateX(-3.7em) translateY(6em) rotate(45deg);
-  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
-}
-
-.red-Parallelogram {
-  transform: translateX(24.7rem) translateY(5em) rotate(360deg);
+  transform: translateX(-14.1em) translateY(-3.9em) rotate(45deg);
   transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .yellow-Triangle {
-  transform:translateX(1.6em) translateY(7.7em) rotate(45deg);
+  transform: translateX(-8.8em) translateY(-2.1em) rotate(45deg);
   transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
-.orange-Triangle {
-  transform:translateX(14em) translateY(2.5em) rotate(225DEG) ;
+
+.pink-Triangle {
+  transform: translateX(-5.2em) translateY(-5.7em) rotate(315deg);
   transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Triangle {
+  transform: translateX(3.3em) translateY(-7.4em) rotate(225DEG);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-Parallelogram {
+  transform: translateX(14.3rem) translateY(-5em) rotate(360deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+@media (max-width: 1250px) {
+  .bigBlue-Triangle {
+    transform: translateX(-5em) translateY(-15em) rotate(135deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.bigGreen-Triangle {
+    transform: translateX(-1.4em) translateY(-15em) rotate(315deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.purple-Square {
+    transform: translateX(-10.7em) translateY(-11.5em) rotate(45deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.yellow-Triangle {
+    transform: translateX(-8.1em) translateY(-10.7em) rotate(45deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.pink-Triangle {
+    transform: translateX(-6.3em) translateY(-12.3em) rotate(315deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-Parallelogram {
+    transform: translateX(5.7rem) translateY(-12em) rotate(360deg);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.orange-Triangle {
+    transform: translateX(0.2em) translateY(-13.2em) rotate(225DEG);
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
 }
